@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Event Summary Result</h1>
+</header>
+
+<div class="content">
+    <h2>Event Created Successfully</h2>
+
+    <div class="result-box">
+        <p><b>Event Name:</b> {{ event_name }}</p>
+        <p><b>Date:</b> {{ event_date }}</p>
+        <p><b>Location:</b> {{ location }}</p>
+        <p><b>Attendees:</b> {{ attendees }}</p>
+        <p><b>Description:</b> {{ description }}</p>
+    </div>
+
+    <a href="/" class="btn">Back to Home</a>
+</div>
+
+</body>
+</html>
