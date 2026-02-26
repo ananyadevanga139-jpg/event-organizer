@@ -1,6 +1,6 @@
 # event-organizer
 ## 🔹 Project Overview
-This is a **web-based Event Organizer Website** developed during my internship at **Pinnacle Labs**.  
+This is a **web-based Event Organizer Website**.  
 The system allows users to **plan, promote, and manage events** with dynamic data handling.  
 It is developed using **Flask, HTML, and CSS**.
 
